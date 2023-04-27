@@ -9,9 +9,10 @@ import { Input } from './components/input';
 function App() {
   return (
     <div>
-      <h1>Hola Mundo!</h1>
-      <p>Este es mi primer componente de React.</p>
-      <Input type="password" placeholder ="ingrese su contra"></Input>
+      <h1>Dale Felpoooooo</h1>
+      <p>Compalta.</p>
+      <Input type="password" placeholder ="deposite aqui su deseo"></Input>
+      <button>daleee</button>
 
 
     </div>
