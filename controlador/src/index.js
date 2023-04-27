@@ -1,17 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import { Input } from './components/input';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+function App() {
+  return (
+    <div>
+      <h1>Hola Mundo!</h1>
+      <p>Este es mi primer componente de React.</p>
+      <Input type="password" placeholder ="ingrese su contra"></Input>
+
+
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
